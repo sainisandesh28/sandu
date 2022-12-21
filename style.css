@@ -7,6 +7,12 @@
 body {
   background-color: #fdbf00;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 83%;
+}
 .card {
   width: 640px;
   height: 400px;
@@ -34,15 +40,16 @@ body {
   left: 50.1%;
 }
 .inside {
-  background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
-  line-height: 3;
-  padding: 0 20px;
+  background: linear-gradient(to right, #e7e7e7, #ffffff 20%);
+  line-height: normal;
+  padding: 20px;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   justify-content: space-around;
-  align-items: center;
+  align-items:center;
   left: 50%;
+  text-size:10px;
 }
 .outside {
   -webkit-transform-style: preserve-3d;
